@@ -8,11 +8,15 @@ groq = "*"
 scikit-learn = "*"
 pandas = "*"
 flask = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
 
 [dev-packages]
 tqdm = "*"
 notebook = "==7.1.2"
 ipywidgets = "*"
+pgcli = "*"
 
 [requires]
 python_version = "3.12"
